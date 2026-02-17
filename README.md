@@ -32,7 +32,7 @@ Individual scripts might need extra stuff - check their directories for specific
 
 ## Usage Philosophy
 
-**Readable over clever** - I went for code you can actually understand instead of trying to be slick with one-liners. Debugging at 2am is hard enough without having to decipher what past-me was thinking.
+**Readable over clever** - I went for code you can actually understand.
 
 **Fail safely** - These include validation and dry-run options where it makes sense. Nobody wants to be the person who broke prod.
 
@@ -74,8 +74,6 @@ These scripts focus on security and compliance, but they're still proof-of-conce
 - Make sure you understand what IAM permissions they need
 - Check if they fit your org's security policies
 - Add error handling for your specific setup
-
-Basically, don't just yolo these into production.
 
 ## Contributing
 
